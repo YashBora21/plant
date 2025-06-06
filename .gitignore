@@ -1,0 +1,21 @@
+# Ignore Python virtual environments
+tf-env/
+venv/
+env/
+
+# Ignore Python bytecode
+__pycache__/
+*.pyc
+
+# Ignore OS files
+.DS_Store
+
+# Ignore IDE configs
+.vscode/
+.idea/
+
+# Ignore model and large files (if not meant for Git)
+*.h5
+*.keras
+*.tflite
+*.pkl
